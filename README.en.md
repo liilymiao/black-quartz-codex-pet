@@ -37,6 +37,12 @@ Copy the two files from `pet/` into:
 
 Restart Codex afterward. If an older version remains cached, switch to another pet and then select Black Quartz again.
 
+## Standalone Windows edition
+
+The repository also provides a Windows desktop companion that does not require Codex. Run `BlackQuartzCompanion.exe` for a transparent always-on-top companion with drag controls, a right-click state menu, scaling, and all sixteen pointer-following look directions.
+
+Source and build instructions are in [`windows/`](windows/). The released EXE is unsigned, so Windows SmartScreen may display an unknown-publisher warning.
+
 ## Sharing notice
 
 This is an unofficial fan derivative inspired by the original in-game Black Quartz visual language. It is not affiliated with or endorsed by the original developer, publisher, or rights holders. Character and setting rights remain with their respective owners. Personal, non-commercial sharing is recommended; verify permissions and platform rules before public redistribution or commercial use.
