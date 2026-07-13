@@ -5,11 +5,11 @@
 ```text
 Use $hatch-pet to create a Codex v2 Companion named Black Quartz.
 
-Black Quartz is not an animal, humanoid, or conventional mascot. She is a silent geometric protocol entity. Her body consists of two elongated, nearly solid smoky-black quartz prisms sharing one stable vertical axis: the upper prism points up, the lower prism points down, and a narrow dark seam separates them. The complete silhouette is one floating black double-point monolith—not hollow triangles and not a silver mechanical frame.
+Black Quartz is a quiet geometric protocol entity. Her body consists of two elongated, nearly solid smoky-black quartz prisms sharing one stable vertical axis: the upper prism points up, the lower prism points down, and a narrow dark seam separates them. The complete silhouette is one floating black double-point monolith—not hollow triangles and not a silver mechanical frame.
 
 Use low-reflectance smoky quartz and polished obsidian glass: blue-black charcoal mass, internal grey gradients, soft lead-grey facet reflections, and only restrained cold-blue or violet refraction. A tiny sapphire archive core is concealed inside the seam; quiet states must never expose a large glowing orb.
 
-The tone is restrained, silent, ordered, archival, permission-oriented, mature gothic science fiction, and non-cute. Prohibit animal anatomy, faces, eyes, limbs, wings, feathers, tails, clothing, readable text, UI, loose fragments, shadows, halos, neon outlines, and bright silver frames.
+The tone is restrained, silent, ordered, archival, permission-oriented, mature science fiction, and non-cute. Prohibit animal anatomy, faces, eyes, limbs, wings, feathers, tails, clothing, readable text, UI, loose fragments, shadows, halos, neon outlines, and bright silver frames.
 
 Animation language:
 - idle: nearly sealed prisms with a tiny seam pulse;
@@ -29,7 +29,7 @@ Complete the 8×11, 192×208-cell, 1536×2288 spriteVersionNumber 2 atlas. Gener
 ## Base visual prompt
 
 ```text
-Create a single centered full-body reference sprite of Black Quartz, an eyeless geometric protocol entity. Two elongated, nearly solid faceted smoky-black quartz prisms share one vertical axis: upper prism points up, lower prism points down, separated by one narrow dark seam. The silhouette reads as one floating black double-point monolith, never hollow triangles or a silver mechanical frame. Low-reflectance obsidian-glass material, blue-black charcoal mass, subtle internal grey gradients, restrained lead-grey facet reflections, faint cold-blue and violet refraction. A tiny sapphire archive core is only barely visible inside the seam. Mature gothic science-fiction, archival, ordered, silent, elegant, non-cute. No animal or humanoid anatomy, no face, eyes, limbs, wings, clothing, text, symbols, UI, loose fragments, particles, shadow, halo, neon outline, scenery, or props. Crisp pet-safe silhouette, readable at 192×208. Flat pure #00FF00 chroma background.
+Create a single centered full-body reference sprite of Black Quartz, a quiet geometric protocol entity. Two elongated, nearly solid faceted smoky-black quartz prisms share one vertical axis: upper prism points up, lower prism points down, separated by one narrow dark seam. The silhouette reads as one floating black double-point monolith, never hollow triangles or a silver mechanical frame. Low-reflectance obsidian-glass material, blue-black charcoal mass, subtle internal grey gradients, restrained lead-grey facet reflections, faint cold-blue and violet refraction. A tiny sapphire archive core is only barely visible inside the seam. Mature science fiction, archival, ordered, silent, elegant, non-cute. No animal or humanoid anatomy, no face, eyes, limbs, wings, clothing, text, symbols, UI, loose fragments, particles, shadow, halo, neon outline, scenery, or props. Crisp pet-safe silhouette, readable at 192×208. Flat pure #00FF00 chroma background.
 ```
 
 ## Identity-preserving material correction
@@ -43,4 +43,3 @@ Edit the supplied Black Quartz reference without changing its silhouette, propor
 ```text
 Edit this five-frame Black Quartz jumping strip. Use one identical double-prism sprite size in every frame: same pixel width, height, crystal proportions, seam, and blue-core size. Change only the full sprite's y position in a symmetric low→middle→high→middle→low arc. Do not scale, squash, stretch, rotate, change perspective, or make the apex frame appear closer to camera. Keep safe top and bottom margins. No floor, shadow, dust, impact mark, trail, glow, or detached effect. Flat #00FF00 background.
 ```
-

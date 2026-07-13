@@ -7,11 +7,11 @@
 ```text
 请使用 $hatch-pet 创建一个 Codex v2 Companion，名字叫 Black Quartz。
 
-核心身份：她不是动物、拟人角色或普通吉祥物，而是一种安静运行的几何协议实体。主体由上下两枚细长、近乎实心的烟黑石英晶体棱柱构成：上方尖端朝上，下方尖端朝下，共用稳定的竖直轴，中间只有一道狭窄暗缝。整体轮廓是一根悬浮的黑色双锥，不是两个空心三角形，也不是银色机械框架。
+核心身份：她是一种安静运行的几何协议实体。主体由上下两枚细长、近乎实心的烟黑石英晶体棱柱构成：上方尖端朝上，下方尖端朝下，共用稳定的竖直轴，中间只有一道狭窄暗缝。整体轮廓是一根悬浮的黑色双锥，不是两个空心三角形，也不是银色机械框架。
 
 材质：低反射烟黑石英与抛光黑曜石玻璃；深蓝黑、炭黑和内部灰色渐层；只有柔和铅灰晶面反射、极轻微冷蓝或紫色折射。中央狭缝内藏一枚很小的冷蓝档案核心，安静状态下不可出现暴露的大光球。
 
-气质：克制、安静、秩序、档案、权限、哥特科幻、成熟、非卖萌。禁止动物解剖、脸、眼睛、肢体、翅膀、羽毛、尾巴、服装、文字、UI、散落碎片、阴影、光环、霓虹描边和亮银金属框。
+气质：克制、安静、秩序、档案、权限、科幻、成熟、非卖萌。禁止动物解剖、脸、眼睛、肢体、翅膀、羽毛、尾巴、服装、文字、UI、散落碎片、阴影、光环、霓虹描边和亮银金属框。
 
 状态语言：
 - idle：双锥近乎闭合，中缝只有极小呼吸式蓝光。
@@ -31,7 +31,7 @@
 ## 2. 单张主视觉 Prompt
 
 ```text
-Create a single centered full-body reference sprite of Black Quartz, an eyeless geometric protocol entity. Two elongated, nearly solid faceted smoky-black quartz prisms share one vertical axis: upper prism points up, lower prism points down, separated by one narrow dark seam. The silhouette reads as one floating black double-point monolith, never hollow triangles or a silver mechanical frame. Low-reflectance obsidian-glass material, blue-black charcoal mass, subtle internal grey gradients, restrained lead-grey facet reflections, faint cold-blue and violet refraction. A tiny sapphire archive core is only barely visible inside the seam. Mature gothic science-fiction, archival, ordered, silent, elegant, non-cute. No animal or humanoid anatomy, no face, eyes, limbs, wings, clothing, text, symbols, UI, loose fragments, particles, shadow, halo, neon outline, scenery, or props. Crisp pet-safe silhouette, readable at 192×208. Flat pure #00FF00 chroma background.
+Create a single centered full-body reference sprite of Black Quartz, a quiet geometric protocol entity. Two elongated, nearly solid faceted smoky-black quartz prisms share one vertical axis: upper prism points up, lower prism points down, separated by one narrow dark seam. The silhouette reads as one floating black double-point monolith, never hollow triangles or a silver mechanical frame. Low-reflectance obsidian-glass material, blue-black charcoal mass, subtle internal grey gradients, restrained lead-grey facet reflections, faint cold-blue and violet refraction. A tiny sapphire archive core is only barely visible inside the seam. Mature science fiction, archival, ordered, silent, elegant, non-cute. No animal or humanoid anatomy, no face, eyes, limbs, wings, clothing, text, symbols, UI, loose fragments, particles, shadow, halo, neon outline, scenery, or props. Crisp pet-safe silhouette, readable at 192×208. Flat pure #00FF00 chroma background.
 ```
 
 ## 3. 保持身份、调整材质
@@ -49,6 +49,5 @@ Edit this five-frame Black Quartz jumping strip. Use one identical double-prism 
 ## 5. 延展世界观或宣传文案
 
 ```text
-以“Black Quartz 是一种档案与权限协议的几何化身”为核心，为她写一段克制、冷静、略带哥特科幻感的世界观介绍。强调烟黑晶体、隐藏的蓝色档案核心、静止时闭合、处理任务时展开，以及她不是宠物而是一种长期陪伴用户工作的协议实体。不要写成卖萌角色，不要使用夸张战斗口吻，控制在 150–250 字。
+以“Black Quartz 是一种档案与权限协议的几何化身”为核心，为她写一段克制、冷静、略带科幻感的世界观介绍。强调烟黑晶体、隐藏的蓝色档案核心、静止时闭合、处理任务时展开，以及她是一个长期陪伴用户工作的协议实体。不要写成卖萌角色，不要使用夸张战斗口吻，控制在 150–250 字。
 ```
-
