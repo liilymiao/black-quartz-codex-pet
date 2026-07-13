@@ -1,8 +1,10 @@
 using System.Diagnostics;
 using System.Globalization;
+using System.Runtime.InteropServices;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
+using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Threading;
 
@@ -12,6 +14,7 @@ public partial class MainWindow : Window
 {
     private const int CellWidth = 192;
     private const int CellHeight = 208;
+    private const double PointerDeadZoneDip = 24;
 
     private static readonly IReadOnlyDictionary<CompanionState, AnimationDefinition> Animations =
         new Dictionary<CompanionState, AnimationDefinition>
@@ -111,12 +114,20 @@ public partial class MainWindow : Window
 
     private bool TryShowPointerDirection()
     {
-        var cursor = GetCursorPosition();
-        var center = new Point(Left + ActualWidth / 2, Top + ActualHeight / 2);
+        if (!TryGetCursorPosition(out var cursor))
+        {
+            return false;
+        }
+
+        // GetCursorPos and PointToScreen both use physical screen pixels. This keeps
+        // tracking accurate outside the WPF window, across DPI scales and monitors.
+        var center = PointToScreen(new Point(ActualWidth / 2, ActualHeight / 2));
         var dx = cursor.X - center.X;
         var dy = cursor.Y - center.Y;
         var distance = Math.Sqrt(dx * dx + dy * dy);
-        if (distance < Math.Max(72, ActualWidth * 0.42))
+        var dpi = VisualTreeHelper.GetDpi(this);
+        var deadZone = PointerDeadZoneDip * Math.Max(dpi.DpiScaleX, dpi.DpiScaleY);
+        if (distance < deadZone)
         {
             return false;
         }
@@ -132,10 +143,27 @@ public partial class MainWindow : Window
         return true;
     }
 
-    private Point GetCursorPosition()
+    private static bool TryGetCursorPosition(out Point cursor)
     {
-        var relative = Mouse.GetPosition(this);
-        return PointToScreen(relative);
+        if (GetCursorPos(out var nativePoint))
+        {
+            cursor = new Point(nativePoint.X, nativePoint.Y);
+            return true;
+        }
+
+        cursor = default;
+        return false;
+    }
+
+    [DllImport("user32.dll")]
+    [return: MarshalAs(UnmanagedType.Bool)]
+    private static extern bool GetCursorPos(out NativePoint point);
+
+    [StructLayout(LayoutKind.Sequential)]
+    private struct NativePoint
+    {
+        public int X;
+        public int Y;
     }
 
     private void ShowAnimationFrame(AnimationDefinition animation, int index)

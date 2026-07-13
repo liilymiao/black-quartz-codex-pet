@@ -39,7 +39,7 @@ Restart Codex afterward. If an older version remains cached, switch to another p
 
 ## Standalone Windows edition
 
-The repository also provides a Windows desktop companion that does not require Codex. Run `BlackQuartzCompanion.exe` for a transparent always-on-top companion with drag controls, a right-click state menu, scaling, and all sixteen pointer-following look directions.
+The repository also provides a Windows desktop companion that does not require Codex. Run `BlackQuartzCompanion.exe` for a transparent always-on-top companion with drag controls, a right-click state menu, scaling, and all sixteen look directions following the global pointer across the full virtual desktop and multiple monitors.
 
 Source and build instructions are in [`windows/`](windows/). The released EXE is unsigned, so Windows SmartScreen may display an unknown-publisher warning.
 

@@ -9,7 +9,7 @@ This folder builds a standalone Windows desktop companion from the existing Blac
 - Drag with the left mouse button to move Black Quartz.
 - Click without dragging to switch between processing and review.
 - Right-click to select an animation, toggle pointer following or always-on-top, change scale, or exit.
-- When idle, the archive aperture follows the pointer using the atlas's sixteen look directions.
+- When idle, the archive aperture follows the global pointer through all sixteen atlas directions across the full virtual desktop and multiple monitors, with only a small neutral dead zone at its center.
 
 ## Build
 
