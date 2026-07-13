@@ -1,0 +1,27 @@
+{
+  "id": "black-quartz",
+  "displayName": "Black Quartz",
+  "release": "1.0.0",
+  "releaseDate": "2026-07-13",
+  "type": "Codex custom pet",
+  "spriteVersionNumber": 2,
+  "atlas": {
+    "format": "WebP RGBA",
+    "width": 1536,
+    "height": 2288,
+    "columns": 8,
+    "rows": 11,
+    "cellWidth": 192,
+    "cellHeight": 208
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "warnings": [],
+    "finalVisualQA": "pass",
+    "blindDirectionQA": "pass"
+  },
+  "spritesheetSha256": "462ae6d3436fc0bfd4dedd472ec4267a867ed7e349bf4bd0545530dd61f558b2",
+  "status": "unofficial fan-made derivative",
+  "recommendedUse": "personal and non-commercial sharing"
+}

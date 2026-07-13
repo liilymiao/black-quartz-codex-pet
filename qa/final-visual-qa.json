@@ -1,0 +1,11 @@
+{
+  "verdict": "pass",
+  "severity": "none",
+  "evidence": {
+    "jumping": "Five 192x208 frames keep width 53 px and heights 185,183,181,183,184 px. Alpha centroid y follows 109.29,100.07,93.78,98.42,109.18 for a clear low-rise-apex-fall-low arc without clipping or effects.",
+    "identity": "All standard and look rows preserve the same solid smoky black-quartz double-prism, restrained grey reflections, and narrow blue archive seam.",
+    "directions": "All sixteen labeled semantics pass and independent blind horizontal/vertical validation passes with no warnings or unconfirmed pairs.",
+    "structure": "The 1536x2288 RGBA v2 atlas validates with no errors or warnings; chroma despill passes with alpha preserved and zero rejected pixels."
+  },
+  "repair_note": null
+}
